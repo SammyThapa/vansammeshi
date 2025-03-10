@@ -1,0 +1,265 @@
+
+.new {
+    background-color:#ffff;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    gap: 40px;
+}
+@media(max-width:768px){
+    .menu{
+        display:none;
+    }
+}
+
+.menu a {
+    text-decoration: none;
+
+}
+.menu img{
+    height: 100px;
+}
+.shape-li {
+    border: 0;
+    border-radius: 7px; 
+    padding: 0px;
+}
+
+.shape-li a {
+    color: #e2cd8a;
+}
+
+.start-li {
+    border: 0;
+    border-radius: 7px;
+    color:black;
+    background-color:  #e2cd8a;
+    font-size: 15.5px;
+    margin: 0px 50px 0px 50px;
+    padding: 10px 20px;
+}
+
+.start-li a {
+    color:black;
+    font-weight: 600;
+}
+
+.home-1 a {
+    color:black;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+.hover-1 a {
+    color:black;
+    font-weight: 600;
+}
+
+.hover-1 a:hover {
+    background-color: #C90909;
+    padding: 5px;
+    display: none;
+}
+.banner-section {
+    background-image: url('/images/food1_enhanced_enhanced.jpg');
+    background-size: cover;
+    height: 250px;
+    position: relative;
+ 
+    
+}
+.banner-section h1 {
+    
+    background-color: #e2cd8a;
+    display: inline-flex;
+    padding: 10px;
+    color:black;
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    border-radius: 20px ;
+    left: 550px;
+    
+
+}
+
+.banner-section h2 {
+    margin: 0px 0px 0px 30px;
+    color:#ffffff;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.plea{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.eating{
+    display: flex;
+    align-items:center;
+    text-align: center;
+  }
+.eating img{
+    height: 100px;
+  }
+.banner2 {
+    display: flex;
+}
+
+@media (max-width:768px){
+    .banner2{
+        flex-direction: column;
+    }
+}
+
+.image-1 img {
+    height: 300px;
+    margin: 0px 50px;
+}
+.b-1 {
+    text-align: center;
+
+}
+.p1 {
+
+    font-weight: 300;
+
+}
+.red{
+    background-color: greenyellow;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+       display: inline-block;
+   
+}
+.discount button{
+    background-color:rgb(255, 102, 0);
+    color: #ffff;
+    border-radius: 15px;
+}
+.discount button:hover{
+    color: red;
+}
+.eating-2{
+      display: flex;
+    align-items:center;
+    text-align: center;
+    margin-left: 1350px;
+}
+.eating-2 img{
+    height: 100px;
+    
+  }
+
+.align {
+    text-align: center;
+}
+.red-2 {
+    color: #e2cd8a;
+}
+
+
+.grid-2{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.grid-2 li{
+    list-style: none;
+    padding: 20px;
+    background-color:#e3d8d8;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    }
+    .grid-2 img{
+        height: 200px;
+    }
+.grid-2 h1{
+    color: #000000;
+}
+
+.grid-2 p{
+    margin: 0;
+padding: 1rem;
+}
+.last{
+    background-image: url('sc.png');
+    background-size: cover;
+       height: 500px;
+       display:flex ;
+       position: relative;
+       
+    }
+    .pro-5 li{
+        color: #ffffff;
+        list-style: none;
+        position: absolute;
+        left: 100px;
+        top: 150px;
+        padding: 10px;
+    }
+    .only img{
+        width: 400px;
+        position: absolute;
+        left: 70px;
+        top: 0px;
+        padding: 10px;
+    
+    }
+     .pro-4{
+        color: #ffffff;
+        position: absolute;
+        left: 550px;
+        padding: 10px;
+     }
+    
+     .pro-2{
+        color: #ffffff;
+        position: absolute;
+        left: 850px;
+        padding: 10px;
+        
+     }
+     .pro-1{
+        color: #ffffff;
+        position: absolute;
+        left: 1150px;
+        padding: 10px;
+    
+     }
+     .dropdown button{
+        color:black;
+        font-weight: 600;
+        background-color:#e2cd8a ;
+     }
+ 
+     .red-9 a:hover{
+        background-color: greenyellow;
+     }
+     .red-10 a:hover{
+        background-color: red;
+     }
+     .red-11 a:hover{
+        background-color: coral;
+     }
