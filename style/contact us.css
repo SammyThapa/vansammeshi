@@ -8,7 +8,7 @@
     display: grid;
     margin: 100px auto;
     gap: 40px;
-    border: 1px solid rebeccapurple;
+    border: 1px black;
     box-shadow: 0px 5px 5px 5px rgb(0,0,0,0.6);
     text-align: center;
     border-radius: 10px;
