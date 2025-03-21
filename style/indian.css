@@ -1,8 +1,34 @@
 body{
     margin: 0px;
 }
-.indian-1{
-    text-align:center;
-    color: ;
-
+.header-2{
+    text-align: center;
+}
+.indian{
+    background-image: url('/images/indian\ overlay.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.overlay-1{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.indian h1{
+    position: absolute;
+    left: 650px;
+    background-color:  #e2cd8a;
+    border-radius: 7px;
+}
+.divider{
+    display: grid   ;
+    grid-template-columns: 1fr 1fr;
+}
+.starters{
+    text-align: center;
+}
+.border-1{
+    border:1px solid gray;
 }
