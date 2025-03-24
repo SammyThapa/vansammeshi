@@ -1,13 +1,21 @@
 body{
 margin: 0px;
 }
-.header-1 h3{
+
+.header-1 p{
     text-align: justify;
 }
 
+.main-div{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-
-.header-1 h1{
+.main-heading{
     text-align: center;
     background-color:rgb(255, 217, 170);
     padding-top: 20px;
@@ -27,4 +35,10 @@ margin: 0px;
     padding-bottom: 20px;
     margin-top: 0px;
     
+}
+
+#carouselExample img{
+    object-fit: cover;
+    border-radius: 15px !important;
+    box-shadow: 5px 5px rgba(0,0,0,0.4) !important;
 }

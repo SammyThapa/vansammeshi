@@ -1,3 +1,7 @@
+html{
+    --redcolor : red;
+}
+
 body{
     font-family: 'poppins', sans-serif;
     margin: 0;
