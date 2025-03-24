@@ -1,6 +1,6 @@
 
 .banner-section {
-    background-image: url('/images/food1_enhanced_enhanced.jpg');
+    background-image: url('../images/food1_enhanced_enhanced.jpg');
     background-size: cover;
     height: 250px;
     position: relative;
