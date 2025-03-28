@@ -10,6 +10,9 @@ body{
     height: 400px;
     position: relative;
 }
+.indian h1{
+    margin-top: 50px;
+}
 .overlay-1{
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
@@ -24,8 +27,32 @@ body{
 }
 .divider{
     display: grid   ;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
+.divider h2{
+    margin: 50px 0px 50px 0px;
+    
+}
+
+.divider img{
+   height: 100px;
+   width: 300px;
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 5px  #e2cd8a !important;
+ margin-left: 90px;
+ object-fit: cover;
+
+}
+
 .starters{
     text-align: center;
+  background-color: #e2cd8a;
+   
+}
+.starters h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
