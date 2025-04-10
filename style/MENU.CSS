@@ -25,6 +25,9 @@ body{
     background-color:  #e2cd8a;
     border-radius: 7px;
 }
+.heading-5 h2{
+    margin-top: 50px;
+}
 .divider{
     display: grid   ;
     grid-template-columns: 1fr 1fr 1fr;
@@ -53,6 +56,50 @@ body{
    
 }
 .starters h2{
-    margin-top: 50px;
+
     margin-bottom: 50px;
+}
+.chinese{
+    background-image: url('/images/chinese.jpeg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-top: 50px;
+}
+.chinese h1{
+    margin-top: 50px;
+}
+.overlay-1{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.chinese h1{
+    position: absolute;
+    left: 650px;
+    background-color:  #e2cd8a;
+    border-radius: 7px;
+}
+.italian{
+    background-image: url('/images/ital.jpg');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-top: 50px;
+}
+.italian h1{
+    margin-top: 50px;
+}
+.overlay-1{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.italian h1{
+    position: absolute;
+    left: 650px;
+    background-color:  #e2cd8a;
+    border-radius: 7px;
 }
